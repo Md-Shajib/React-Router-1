@@ -1,0 +1,23 @@
+.postCard{
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid tomato;
+    border-radius: 20px;
+    background-color: rgb(250, 250, 250);
+}
+.postCard h2{
+    text-align: center;
+}
+
+.postContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.button{
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 2px solid #f6c6c6;
+    border-radius: 10px;
+    text-align: center;
+}

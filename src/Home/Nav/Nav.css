@@ -1,0 +1,11 @@
+.Navbar a{
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: large;
+}
+
+nav a.active {
+    color: red;
+    text-decoration: underline;
+  }
